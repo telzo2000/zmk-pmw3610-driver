@@ -173,7 +173,6 @@ config PMW3610_SCROLL_SENSITIVITY
     help
       Scrolling sensitivity. Higher values make scrolling more responsive with stronger acceleration.
 
-
 module = PMW3610
 module-str = PMW3610
 source "${ZEPHYR_BASE}/subsys/logging/Kconfig.template.log_config"
